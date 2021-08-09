@@ -12,6 +12,8 @@ target 'PlaygroundApp' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+
   target 'PlaygroundAppTests' do
     inherit! :complete
     # Pods for testing
